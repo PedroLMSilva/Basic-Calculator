@@ -30,7 +30,8 @@ def percentage(x, y):
         return "Error - Negative numbers"
 
 
-def factorial(x):  # return factorial
+# This function gives the factorial of a number
+def factorial(x):
     result = 1
 
     for i in range(1, x + 1):
@@ -39,14 +40,17 @@ def factorial(x):  # return factorial
     return result
 
 
+# This function gives the exponential of a number
 def exponential(x, y):
     return x ** y
 
 
+# This function gives the square root of a number
 def squareroot(x):
     return math.sqrt(x)
 
 
+# This function gives the logarithm of a number
 def log(x):
     return math.log(x, 10)
 
@@ -90,7 +94,7 @@ while True:
     # take input from the user
     choice = validadeinput()
 
-    # check if choice is one of the four options
+    # check if choice is one of the ten options
     if choice in ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10'):
 
         if choice == '1':
